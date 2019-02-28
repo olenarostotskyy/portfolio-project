@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- R meta tags always come first -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link rel="stylesheet" href="css/my_project_style.css">
+     
+     <title>In Bloom</title>
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+<div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+<a class="navbar-brand mr-auto" href="#"><img src="css/flowers/logo1.001.png"height="30" width="41"></a>
+<div class="collapse navbar-collapse" id="Navbar"> 
+<ul class="navbar-nav mr-auto">  
+    <li class="nav-item active"><a class="nav-link" href="portfolio_project_main.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+<li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>About</a></li>
+<li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lh"></span>Menu</a></li>
+<li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+</ul>
+<span class="navbar-text">
+    <a data-toggle="modal" data-target="#loginModal">
+       <span class="fa fa-sign-in"></span>Login
+    </a>
+</span>
+</div>
+</div>
+</nav>
+
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class=" modal-dialog modal-lg" role="content">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="role" data-dismiss="modal">
+                    &times;
+                </button>
+            </div>
+                <div class="modal-body">
+                        <form>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-4">
+                                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                        <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                    </div>
+                                    <div class="col-sm-auto">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                            <label class="form-check-label"> Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                                </div>
+                            </form>
+                </div>
+        </div>
+    </div>
+</div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-12 col-md-12 align-self-center">
+                    <h1>In Bloom</h1>
+                    <p> Our In bloom company has been proudly providing high quality boxes of flower and services to the Sumner/ Puyallup/ Bonney Lake/ Auburn area. What differentiates us from other businesses is our ability to truly connect with our customers, and provide the exceptional, compassionate service they deserve. All our products are handmade. To learn more, simply browse through our site.</p>
+                </div>
+               
+                <div class="col-12 col-sm-2 align-self-center">
+                        <a role="button" class="btn btn-block nav-link btn-warning"
+                        data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
+                        data-placement="bottom" href="#reserveform">Order now</a>
+                </div>      
+            </div>
+        </div>
+    </header>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
