@@ -11,17 +11,21 @@
 }
 
 .footer{
-    background-color: brown;
+    background-color: rgb(182, 31, 131);
     margin: 0px auto;
     padding:  20px 0px 20px 0px;
+    color: floralwhite;
+}
+
+.fa{
+    color: floralwhite;
 }
 .jumbotron{
-    block-size: 30pc;
     background-image: url("flowers/one.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 70pc;
-    padding: 70px 30px 70px 30px;
+    background-size: 90pc;
+   
     margin: 0px auto;
     color: floralwhite;
 }
@@ -32,11 +36,12 @@
     color: #0f0f0f;
 }
 body{
+    background: rgb(58, 2, 36);
     padding: 50px 0px 0px;
     z-index: 0;
 }
 .navbar-dark{
-    background-color: #791634;
+    background-color: #270610;
 }
 .tab-content {
     border-left: 1px solid #ddd;
@@ -45,14 +50,33 @@ body{
     padding: 10px; 
 }
 .carousel{
-    background: #512da8; 
+    background: #6b0937; 
+    color: floralwhite;
 }
-.carousel-item{
-    height: 300px;
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+    
+ } 
 }
-.carousel-item img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+    
+    .btn-primary{
+        color: floralwhite;
+        background:#a14923;
+        border-bottom: #a14923;
+        
+    }
+
+     
+    
+     
+       
+    
+   
+
+   
+    
