@@ -40,8 +40,8 @@ footer address a{
     opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
-   height: 15pc;
-   background-size: 20px;
+   height: 20pc;
+   background-size: 25px;
     margin: 0px auto;
     color: floralwhite;
 }
@@ -49,22 +49,25 @@ footer address a{
     font-size: 4pc;
     font-style: normal;
     position: absolute;
-left: 500px;
-
-
+    left: 24pc;
+    font-style: normal;
+    opacity: 2;
 }
 .jumbotron p{
-    position: absolute;
-    left: 550px;
-    width: 400px;
-    
-   
-    
-   
+
+
 }
-.jumbotron .btn-danger{
-    position: center;
-    background: rgb(219, 229, 136):
+.jumbotron .btn{
+    color:rgb(37, 42, 0);
+    background: rgb(219, 229, 136);
+    border-left: 2px solid rgb(143, 93, 154);
+       border-right: 2px solid rgb(143, 93, 154);
+       border-bottom: 2px solid rgb(143, 93, 154);
+       border-top: 2px solid rgb(143, 93, 154);
+      left: 26pc;
+      top:10pc;
+       position: absolute;
+       
 }
 
 
@@ -110,6 +113,9 @@ body{
 }
     
  .carousel img{
+    height: 15rem;
+    width: 100%;
+    
     padding: 2px;
     background: rgb(196, 186, 215);
  }
@@ -169,7 +175,23 @@ body{
            border-top: 2px solid;
        }
 
-    
+    /*Portfolio*/
+.portfolio{
+    margin: 4em 0;
+       position: relative; 
+   }
+   .portfolio h1{
+    color:floralwhite;
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     
+   }
+   .portfolio .card{
+    margin: 7px;
+   }
      
        
     
