@@ -1,3 +1,5 @@
+
+
 .row-header {
     margin: 0px auto;
     padding: opx auto;
@@ -11,37 +13,78 @@
 }
 
 .footer{
-    background-color: rgb(182, 31, 131);
+    background-color: rgb(94, 104, 8);
+    opacity: 0.8;
     margin: 0px auto;
     padding:  20px 0px 20px 0px;
-    color: floralwhite;
+    color: rgb(219, 229, 136);
+}
+.footer li a {
+    color: rgb(219, 229, 136) !important;
 }
 
+
+
+footer h5 {
+    color: rgb(219, 229, 136)!important;
+}
+footer address a{
+    color:rgb(219, 229, 136);
+   
+}
 .fa{
-    color: floralwhite;
+    color: rgb(234, 222, 139);
 }
 .jumbotron{
-    background-image: url("flowers/one.jpg");
+    background: rgb(11, 1, 29);
+    opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90pc;
-   
+   height: 15pc;
+   background-size: 20px;
     margin: 0px auto;
     color: floralwhite;
 }
+.jumbotron h1{
+    font-size: 4pc;
+    font-style: normal;
+    position: absolute;
+left: 500px;
+
+
+}
+.jumbotron p{
+    position: absolute;
+    left: 550px;
+    width: 400px;
+    
+   
+    
+   
+}
+.jumbotron .btn-danger{
+    position: center;
+    background: rgb(219, 229, 136):
+}
+
 
 .address{
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
 }
+
+
+
 body{
-    background: rgb(58, 2, 36);
-    padding: 50px 0px 0px;
+    background-image: url(flowers/anemon3.jpg);
+    background-size: cover;
+    padding: auto;
     z-index: 0;
+
 }
 .navbar-dark{
-    background-color: #270610;
+    background-color:rgb(33, 12, 72);
 }
 .tab-content {
     border-left: 1px solid #ddd;
@@ -50,28 +93,82 @@ body{
     padding: 10px; 
 }
 .carousel{
-    background: #6b0937; 
+    background-color:rgb(33, 12, 72);
+    opacity: 0.9;
+    padding: 1em;
     color: floralwhite;
+    text-align: center;
 }
-@media (min-width: 768px) {
+.carousel .background-color {
+    opacity: 0.6;
+}
+@media (min-width: 900px) {
     .carousel-multi-item-2 .col-md-3 {
     float: left;
     width: 25%;
     max-width: 100%;
-    
- } 
 }
+    
+ .carousel img{
+    padding: 2px;
+    background: rgb(196, 186, 215);
+ }
+
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
-    
     .btn-primary{
-        color: floralwhite;
-        background:#a14923;
-        border-bottom: #a14923;
-        
+        color:rgb(37, 42, 0);
+        background: rgb(219, 229, 136);
+        border-left: 2px solid;
+           border-right: 2px solid rgb(143, 93, 154);
+           border-bottom: 2px solid rgb(143, 93, 154);
+           border-top: 2px solid rgb(143, 93, 154);
+        }
     }
 
-     
+    .carousel-indicators{
+    margin-bottom: 2px;
+    }
+    .container1{
+        margin:0;
+        padding: 1em;
+        position: relative;
+   
+    
+   }
+       
+       .container1 img{
+        height: 92%;
+           width: 100%;
+           border-radius: 50%;
+       }
+       .container1 span{
+        display: block;
+        color:floralwhite;
+        position: absolute;
+        left: 115px;
+       }
+       .container1 .desc{
+        padding: 2em;
+        border-left:4px solid rgb(196, 186, 215);
+       }
+       .container1 .desc h3{
+        color: floralwhite;
+       }
+       .container1 .desc p{
+        line-height:2;
+        color:floralwhite;
+       }
+       .container1 .btn-danger{
+           position: center;
+           background:rgb(219, 229, 136);
+           color: rgb(37, 42, 0);
+           border-left: 2px solid;
+           border-right: 2px solid;
+           border-bottom: 2px solid;
+           border-top: 2px solid;
+       }
+
     
      
        
