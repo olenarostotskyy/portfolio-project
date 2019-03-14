@@ -40,7 +40,7 @@ footer address a{
     opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
-   height: 20pc;
+   height: 26pc;
    background-size: 25px;
     margin: 0px auto;
     color: floralwhite;
@@ -64,11 +64,17 @@ footer address a{
        border-right: 2px solid rgb(143, 93, 154);
        border-bottom: 2px solid rgb(143, 93, 154);
        border-top: 2px solid rgb(143, 93, 154);
-      left: 26pc;
-      top:10pc;
+      left: 12pc;
+      top:16pc;
        position: absolute;
        
 }
+.jumbotron img{
+  position: absolute;
+  left: 24pc;
+
+}
+
 
 
 .address{
