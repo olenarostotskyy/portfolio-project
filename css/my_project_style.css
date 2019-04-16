@@ -13,7 +13,8 @@
 }
 
 .footer{
-    background-color: rgb(94, 104, 8);
+    background: rgba(94, 104, 8, 0.6);
+    
     opacity: 0.8;
     margin: 0px auto;
     padding:  20px 0px 20px 0px;
