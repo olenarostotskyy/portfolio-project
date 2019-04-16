@@ -1,0 +1,101 @@
+.row-header {
+    margin: 0px auto;
+    padding: opx auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.navbar-dark {
+    width: auto;
+    background-color:rgb(33, 12, 72);
+}
+.footer{
+    background-color: floralwhite;
+    display: table;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 3px auto;
+    padding:  20px 0px 20px 0px;
+}
+.jumbotron{
+    min-height: 600px;
+    block-size: 150px;
+    writing-mode: horizontal-tb;
+    background: floralwhite;
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    color: black;
+}
+.clearfix{
+    overflow: auto;
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+body{
+    background-image: url(flowers/anemon3.jpg);
+    background-size: cover;
+    padding: auto;
+    z-index: 0;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px; 
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline:none;
+    box-shadow:none;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline:none;
+    box-shadow:none;
+    opacity: 0.4;
+}
+.btn {
+    color: black;
+    width: 100px;
+    background: transparent;
+    border: none;
+    
+}
+.span4 img{
+    margin-right: 10px;
+    width: 300px;
+}
+.span4 .img-left{
+    float: left;
+}
+.span4 .img-right{
+    float: right;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

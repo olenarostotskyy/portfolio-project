@@ -1,0 +1,250 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 83d3ba27c40e387e069fc0ea4cb5bc0aeea81f9b
+.row-header {
+    margin: 0px auto;
+    padding: opx auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer{
+<<<<<<< HEAD
+    background-color: brown;
+    margin: 0px auto;
+    padding:  20px 0px 20px 0px;
+}
+.jumbotron{
+    block-size: 30pc;
+    background-image: url("../img/profileaboutus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70pc;
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    color: floralwhite;
+}
+=======
+    background-color: rgb(94, 104, 8);
+    opacity: 0.8;
+    margin: 0px auto;
+    padding:  20px 0px 20px 0px;
+    color: rgb(219, 229, 136);
+}
+.footer li a {
+    color: rgb(219, 229, 136) !important;
+}
+
+
+
+footer h5 {
+    color: rgb(219, 229, 136)!important;
+}
+footer address a{
+    color:rgb(219, 229, 136);
+   
+}
+.fa{
+    color: rgb(234, 222, 139);
+}
+.jumbotron{
+    background: rgb(11, 1, 29);
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 26pc;
+   background-size: 25px;
+    margin: 0px auto;
+    color: floralwhite;
+}
+.jumbotron h1{
+    font-size: 4pc;
+    font-style: normal;
+    position: absolute;
+    left: 24pc;
+    font-style: normal;
+    opacity: 2;
+}
+.jumbotron p{
+
+
+}
+.jumbotron .btn{
+    color:rgb(37, 42, 0);
+    background: rgb(219, 229, 136);
+    border-left: 2px solid rgb(143, 93, 154);
+       border-right: 2px solid rgb(143, 93, 154);
+       border-bottom: 2px solid rgb(143, 93, 154);
+       border-top: 2px solid rgb(143, 93, 154);
+      left: 12pc;
+      top:16pc;
+       position: absolute;
+       
+}
+.jumbotron img{
+  position: absolute;
+  left: 24pc;
+top:7px;
+}
+
+
+>>>>>>> 83d3ba27c40e387e069fc0ea4cb5bc0aeea81f9b
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+<<<<<<< HEAD
+body{
+    padding: 50px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: #791634;
+=======
+
+
+
+body{
+    background-image: url(flowers/anemon3.jpg);
+    background-size: cover;
+    padding: auto;
+    z-index: 0;
+
+}
+.navbar-dark{
+    background-color:rgb(33, 12, 72);
+>>>>>>> 83d3ba27c40e387e069fc0ea4cb5bc0aeea81f9b
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px; 
+}
+.carousel{
+<<<<<<< HEAD
+    background: #512da8; 
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+=======
+    background-color:rgb(33, 12, 72);
+    opacity: 0.9;
+    padding: 1em;
+    color: floralwhite;
+    text-align: center;
+}
+.carousel .background-color {
+    opacity: 0.6;
+}
+@media (min-width: 900px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+}
+    
+ .carousel img{
+    height: 15rem;
+    width: 100%;
+    
+    padding: 2px;
+    background: rgb(196, 186, 215);
+ }
+
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+    .btn-primary{
+        color:rgb(37, 42, 0);
+        background: rgb(219, 229, 136);
+        border-left: 2px solid;
+           border-right: 2px solid rgb(143, 93, 154);
+           border-bottom: 2px solid rgb(143, 93, 154);
+           border-top: 2px solid rgb(143, 93, 154);
+        }
+    }
+
+    .carousel-indicators{
+    margin-bottom: 2px;
+    }
+    .container1{
+        margin:0;
+        padding: 1em;
+        position: relative;
+   
+    
+   }
+       
+       .container1 img{
+        height: 92%;
+           width: 100%;
+           border-radius: 50%;
+       }
+       .container1 span{
+        display: block;
+        color:floralwhite;
+        position: absolute;
+        left: 115px;
+       }
+       .container1 .desc{
+        padding: 2em;
+        border-left:4px solid rgb(196, 186, 215);
+       }
+       .container1 .desc h3{
+        color: floralwhite;
+       }
+       .container1 .desc p{
+        line-height:2;
+        color:floralwhite;
+       }
+       .container1 .btn-danger{
+           position: center;
+           background:rgb(219, 229, 136);
+           color: rgb(37, 42, 0);
+           border-left: 2px solid;
+           border-right: 2px solid;
+           border-bottom: 2px solid;
+           border-top: 2px solid;
+       }
+
+    /*Portfolio*/
+.portfolio{
+    margin: 4em 0;
+       position: relative; 
+   }
+   .portfolio h1{
+    color:floralwhite;
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     
+   }
+   .portfolio .card{
+    margin: 7px;
+   }
+     
+       
+    
+   
+
+   
+    
+>>>>>>> 83d3ba27c40e387e069fc0ea4cb5bc0aeea81f9b
