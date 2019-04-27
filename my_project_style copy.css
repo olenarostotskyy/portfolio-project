@@ -87,12 +87,12 @@ top:7px;
 
 
 body{
-    background-image: url(flowers/anemon3.jpg);
+    background-image: url(css/flowers/anemon3.jpg);
     background-size: cover;
     padding: auto;
     z-index: 0;
-
 }
+
 .navbar-dark{
     background-color:rgb(33, 12, 72);
 }
